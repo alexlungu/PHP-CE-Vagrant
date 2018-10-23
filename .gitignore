@@ -1,0 +1,10 @@
+*.lock
+!composer.lock
+
+.vagrant
+.idea
+
+.DS_Store
+Thumbs.db
+
+logs/
