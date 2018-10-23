@@ -1,0 +1,12 @@
+* text eol=lf
+*.jpg binary
+*.png binary
+*.gif binary
+*.pdf binary
+*.ttf binary
+*.eot binary
+*.woff binary
+*.woff2 binary
+*.ai binary
+*.ico binary
+*.class binary
