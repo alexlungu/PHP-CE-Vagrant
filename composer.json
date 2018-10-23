@@ -15,10 +15,5 @@
             "helpers/",
             "Tests/"
         ]
-    },
-    "scripts": {
-        "post-install-cmd": [
-            "source ~/.bashrc"
-        ]
     }
 }

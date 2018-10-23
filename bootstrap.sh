@@ -123,6 +123,7 @@ git_branch() {
 }
 
 export PS1=\"[\u@\h \W]\[\033[01;32m\]\$(git_branch)\[\033[00m\]\$ \"
+source ~/.bashrc
 " >> /home/vagrant/.bashrc
 
 # Good practice to remove all the vendor dir and force a fresh composer install
