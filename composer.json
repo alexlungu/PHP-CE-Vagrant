@@ -8,8 +8,17 @@
         "phpunit/phpunit": "^6.3.1"
     },
     "autoload": {
+        "files": [
+            "bbsol_global/inc/helpers.php"
+        ],
         "classmap": [
-            "PHPUnitTests/"
+            "helpers/",
+            "Tests/"
+        ]
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "source ~/.bashrc"
         ]
     }
 }

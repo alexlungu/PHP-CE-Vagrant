@@ -2,7 +2,7 @@
 <phpunit colors="true">
     <testsuites>
         <testsuite name="test_default">
-            <directory>./Tests</directory>
+            <directory>./Tests/*.php</directory>
         </testsuite>
     </testsuites>
     <filter>
