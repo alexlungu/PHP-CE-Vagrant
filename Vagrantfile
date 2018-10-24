@@ -12,8 +12,8 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     config.vm.hostname = "local.vvdev"
 
     config.vm.provider "virtualbox" do |vb,override|
-        vb.memory = 3072
-        vb.cpus = 4
+        vb.memory = 2048
+        vb.cpus = 2
 
         override.vm.network "forwarded_port", :guest => 80, :host => 8080
         override.vm.network "forwarded_port", :guest => 443, :host => 8443

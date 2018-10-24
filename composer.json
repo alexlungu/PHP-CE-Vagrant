@@ -9,7 +9,7 @@
     },
     "autoload": {
         "files": [
-            "bbsol_global/inc/helpers.php"
+            "helpers/helpers.php"
         ],
         "classmap": [
             "helpers/",

@@ -116,16 +116,6 @@ alias phpunit='/opt/vendor/bin/phpunit'
 cd /opt
 " >> /home/vagrant/.bash_profile
 
-# Make the terminal display the branch name
-echo "
-git_branch() {
-  git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/(\1)/'
-}
-
-export PS1=\"[\u@\h \W]\[\033[01;32m\]\$(git_branch)\[\033[00m\]\$ \"
-source ~/.bashrc
-" >> /home/vagrant/.bashrc
-
 # Good practice to remove all the vendor dir and force a fresh composer install
 [ -d /opt/vendor ] && rm -rf /opt/vendor
 
